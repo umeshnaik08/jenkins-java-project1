@@ -1,11 +1,13 @@
 node {
-    stage('Build') {
-        //
-    }
-    stage('Test') {
-        //
-    }
-    stage('Deploy') {
-        //
+   ws("H:\INS\Coding\Java\Jenkins\workspace\gcustom") {
+        stage('Build') {
+            //
+        }
+        stage('Test') {
+            //
+        }
+        stage('Deploy') {
+            //
+        }
     }
 }
