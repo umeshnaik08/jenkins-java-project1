@@ -1,5 +1,5 @@
 node {
-   ws("\\gcustom") {
+   ws("gcustom") {
         checkout scm
         stage('Build') {
             //
